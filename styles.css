@@ -1,0 +1,117 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ff5733; /* Hover effect */
+}
+
+section {
+    padding: 40px;
+    margin: 20px;
+    border: 1px solid #ccc;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.skills {
+    display: flex;
+    gap: 30px;
+}
+
+.skill {
+    text-align: center;
+}
+
+.skill img {
+    width: 50px;
+    height: 50px;
+}
+
+.projects {
+    display: flex;
+    gap: 20px;
+}
+
+.project {
+    width: 30%;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+#recommendation-form {
+    margin-top: 20px;
+}
+
+#recommendation-form textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+}
+
+#recommendation-form button {
+    padding: 10px;
+    background-color: #ff5733;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#recommendation-form button:hover {
+    background-color: #c44e2a;
+}
+
+/* Popup Styles */
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 2px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+}
+
+footer img {
+    width: 30px;
+    height: 30px;
+}
